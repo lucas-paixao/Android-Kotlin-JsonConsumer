@@ -1,8 +1,8 @@
 # Android-Kotlin-JsonConsumer
 Objetivo: Ler arquivo Json de uma URL
 
-# DataPage
-Não necessariamente precisa ser usada
+DataPage
+A classe não necessariamente precisa ser usada
 
 # build.gradle
     compile 'com.squareup.retrofit2:retrofit:2.3.0'
