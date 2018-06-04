@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                 .build()
 
         val retrofit = Retrofit.Builder()
-                .baseUrl(" https://s3-sa-east-1.amazonaws.com/")
+                .baseUrl("https://s3-sa-east-1.amazonaws.com/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build()
